@@ -12,7 +12,7 @@ describe('this is a suit for  calculator', function() {
         });
 
         expect(element(by.css("h2[class='ng-binding']")).getText()).toEqual("8");
-        // toEqual('5'); // This is wrong!
+
     });
     it('this app will add two numbers 2', function() {
         browser.get('http://juliemr.github.io/protractor-demo/');
@@ -27,6 +27,6 @@ describe('this is a suit for  calculator', function() {
         });
 
         expect(element(by.css("h2[class='ng-binding']")).getText()).toEqual("9");
-        // toEqual('5'); // This is wrong!
+
     });
 });
