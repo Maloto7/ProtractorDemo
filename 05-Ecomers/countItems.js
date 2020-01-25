@@ -1,20 +1,14 @@
-describe('form angular demo', function() {
-    it('should works whit non angular page', function () {
+describe('Cout items ecomers', function() {
+    it('should count all items', function () {
 
         browser.get('https://qaclickacademy.github.io/protocommerce/shop');
-
-
-        element(by.name("name")).sendKeys("Agustin");
-        element(by.css("input[name='email']")).sendKeys("agustin@mail.com");
-        element(by.id("exampleInputPassword1")).sendKeys("Password.1");
-        element(by.cssContainingText("[id='exampleFormControlSelect1'] option","Female")).click();
-        element.all(by.name("inlineRadioOptions")).first().click();
-        element(by.name("bday")).sendKeys("11112000");
-        element(by.buttonText("Submit")).click().then((text)=>{
-            element(by.css("div[class*='success']")).getText().then((text)=>{
-                // console.log(text);
-                expect(text).toContain("Success");
-            });
+        element(by.xpath("(//button[contains(text(),'Add')])[1]")).click();
+        element(by.xpath("(//button[contains(text(),'Add')])[2]")).click();
+        // element(by.xpath("(//button[contains(text(),'Add')])[3]")).click();
+        element(by.css("a[class*='nav-link btn btn-primary']")).click();
+        element.all(by.css("button[class*='btn btn-danger']")).count().then(function(text){
+            // console.log(`count: ${text}`);
+            expect(element.all(by.css("button[class*='btn btn-danger']")).count()).toEqual(2);
         });
     });
 });

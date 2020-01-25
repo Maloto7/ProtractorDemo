@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfda39e0-531c-4098-bbce-6205babfec76" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04-Forms/conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-Forms/formDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-Forms/negativeForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-Ecomers/conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-Ecomers/countItems.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-Forms/conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-Forms/conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-Forms/negativeForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-Forms/negativeForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-Ecomers/countItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-Ecomers/countItems.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,7 @@
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RunManager">
-    <configuration name="ProtractorTestRunner" type="NodeJSConfigurationType" application-parameters="04-Forms\conf.js" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/protractor/built/cli.js" working-dir="$PROJECT_DIR$">
+    <configuration name="ProtractorTestRunner" type="NodeJSConfigurationType" application-parameters="05-Ecomers\conf.js" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/protractor/built/cli.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" application-parameters="\01-Basic\conf.js" path-to-js-file="$USER_HOME$/AppData/Roaming/npm/node_modules/protractor/built/cli.js" working-dir="$PROJECT_DIR$">
@@ -55,7 +53,7 @@
       <workItem from="1579799077929" duration="9413000" />
       <workItem from="1579881224220" duration="9713000" />
       <workItem from="1579928903211" duration="3400000" />
-      <workItem from="1579963076226" duration="4296000" />
+      <workItem from="1579963076226" duration="6651000" />
     </task>
     <servers />
   </component>
@@ -67,10 +65,10 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="359" y="167" key="#ProtractorTestRunner/0.0.1280.984@0.0.1280.984" timestamp="1579963773957" />
-    <state x="188" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579968289405">
+    <state x="188" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579970723230">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="188" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1579968289405" />
+    <state x="188" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1579970723230" />
     <state x="274" y="40" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1579930945121" />
     <state x="-1506" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1579895424099" />
     <state width="416" height="466" key="DebuggerActiveHint" timestamp="1579801503499">
@@ -82,28 +80,28 @@
     </state>
     <state x="493" y="261" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1579963771340" />
     <state x="-1180" y="276" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1579800950852" />
-    <state width="1259" height="263" key="GridCell.Tab.0.bottom" timestamp="1579968791173">
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom" timestamp="1579971659477">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1579968791173" />
+    <state width="1259" height="263" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1579971659477" />
     <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579932561301" />
     <state width="1899" height="279" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1579902795229" />
-    <state width="1259" height="263" key="GridCell.Tab.0.center" timestamp="1579968791173">
+    <state width="1259" height="263" key="GridCell.Tab.0.center" timestamp="1579971659477">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1579968791173" />
+    <state width="1259" height="263" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1579971659477" />
     <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579932561300" />
     <state width="1899" height="279" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1579902795229" />
-    <state width="1259" height="263" key="GridCell.Tab.0.left" timestamp="1579968791173">
+    <state width="1259" height="263" key="GridCell.Tab.0.left" timestamp="1579971659477">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1579968791173" />
+    <state width="1259" height="263" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1579971659477" />
     <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579932561300" />
     <state width="1899" height="279" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1579902795229" />
-    <state width="1259" height="263" key="GridCell.Tab.0.right" timestamp="1579968791173">
+    <state width="1259" height="263" key="GridCell.Tab.0.right" timestamp="1579971659477">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1579968791173" />
+    <state width="1259" height="263" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1579971659477" />
     <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579932561301" />
     <state width="1899" height="279" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1579902795229" />
     <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1579932561301">
